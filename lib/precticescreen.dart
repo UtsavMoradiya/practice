@@ -27,6 +27,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   image: AssetImage("assets/images/bg.png"),
                   fit: BoxFit.cover,
                 ),
+
+                //
               ),
             ),
             ListView(
