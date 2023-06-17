@@ -30,35 +30,6 @@ class _GridviewThreeState extends State<GridviewThree> {
               color: Colors.red,
               child: Image.asset(data[0], fit: BoxFit.fill),
             ),
-            Container(
-              color: Colors.yellow,
-            ),
-            Container(
-              color: Colors.yellow,
-            ),
-            Container(
-              color: Colors.red,
-              child: Image.asset(data[0], fit: BoxFit.fill),
-            ),
-            Container(
-              color: Colors.red,
-              child: Image.asset(data[1], fit: BoxFit.fill),
-            ),
-            Container(
-              color: Colors.yellow,
-            ),
-            Container(
-              color: Colors.red,
-              child: Image.asset(data[0], fit: BoxFit.fill),
-            ),
-            Container(
-              color: Colors.red,
-              child: Image.asset(data[1], fit: BoxFit.fill),
-            ),
-            Container(
-              color: Colors.red,
-              child: Image.asset(data[2], fit: BoxFit.fill),
-            ),
           ],
         ),
       ),

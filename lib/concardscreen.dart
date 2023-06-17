@@ -19,9 +19,9 @@ class _ScreenTweState extends State<ScreenTwe> {
                 height: 195,
                 width: 195,
                 decoration: const BoxDecoration(
-                    border: Border(
-                        bottom: BorderSide(width: 10, color: Colors.black)),
-                    color: Colors.blueAccent),
+                  border: Border(bottom: BorderSide(width: 10, color: Colors.black)),
+                  color: Colors.blueAccent,
+                ),
                 child: Image.asset("assets/images/Car.jpg"),
               ),
               Container(
@@ -34,7 +34,6 @@ class _ScreenTweState extends State<ScreenTwe> {
                       left: BorderSide(width: 10, color: Colors.black),
                       bottom: BorderSide(width: 10, color: Colors.black),
                     )),
-
                 child: Image.asset("assets/images/Car.jpg"),
               ),
             ],
@@ -45,10 +44,7 @@ class _ScreenTweState extends State<ScreenTwe> {
               Container(
                 height: 195,
                 width: 195,
-                decoration: const BoxDecoration(
-                    color: Colors.blueAccent,
-                    border: Border(
-                        bottom: BorderSide(width: 10, color: Colors.black))),
+                decoration: const BoxDecoration(color: Colors.blueAccent, border: Border(bottom: BorderSide(width: 10, color: Colors.black))),
                 //color: Colors.blueAccent,
                 child: Image.asset("assets/images/Car.jpg"),
               ),
@@ -56,11 +52,7 @@ class _ScreenTweState extends State<ScreenTwe> {
                 height: 195,
                 width: 195,
                 // color: Colors.blueAccent,
-                decoration: const BoxDecoration(
-                    color: Colors.blueAccent,
-                    border: Border(
-                        left: BorderSide(width: 10, color: Colors.black),
-                        bottom: BorderSide(width: 10, color: Colors.black))),
+                decoration: const BoxDecoration(color: Colors.blueAccent, border: Border(left: BorderSide(width: 10, color: Colors.black), bottom: BorderSide(width: 10, color: Colors.black))),
                 child: Image.asset("assets/images/Car.jpg"),
               ),
             ],
@@ -77,7 +69,8 @@ class _ScreenTweState extends State<ScreenTwe> {
                 ),
                 child: Image.asset("assets/images/Car.jpg"),
               ),
-              Container(
+              AnimatedContainer(
+                duration: const Duration(seconds: 1),
                 height: 195,
                 width: 195,
                 decoration: const BoxDecoration(
@@ -97,11 +90,7 @@ class _ScreenTweState extends State<ScreenTwe> {
                 height: 217,
                 width: 195,
                 // color: Colors.blueAccent,
-                decoration: const BoxDecoration(
-                    color: Colors.blueAccent,
-                    border: Border(
-                        top: BorderSide(width: 10, color: Colors.black),
-                        bottom: BorderSide(width: 25, color: Colors.black))),
+                decoration: const BoxDecoration(color: Colors.blueAccent, border: Border(top: BorderSide(width: 10, color: Colors.black), bottom: BorderSide(width: 25, color: Colors.black))),
                 child: Image.asset(
                   "assets/images/Car.jpg",
                   fit: BoxFit.fitWidth,
@@ -110,12 +99,7 @@ class _ScreenTweState extends State<ScreenTwe> {
               Container(
                 height: 217,
                 width: 195,
-                decoration: const BoxDecoration(
-                    border: Border(
-                        top: BorderSide(width: 10, color: Colors.black),
-                        left: BorderSide(width: 10, color: Colors.black),
-                        bottom: BorderSide(width: 25, color: Colors.black)),
-                    color: Colors.blueAccent),
+                decoration: const BoxDecoration(border: Border(top: BorderSide(width: 10, color: Colors.black), left: BorderSide(width: 10, color: Colors.black), bottom: BorderSide(width: 25, color: Colors.black)), color: Colors.blueAccent),
                 child: Image.asset("assets/images/Car.jpg"),
               ),
             ],
